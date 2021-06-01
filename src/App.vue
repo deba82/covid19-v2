@@ -1,18 +1,23 @@
 <template>
-<div>
-<Home props="You are  good boy"/>
-<p>I am good boy</p>
-</div>
+  <div>
+    <Header />
+    <Body />
+    <Footer />
+  </div>
 </template>
 
 <script>
-import Home from './components/Home'
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Home
-  }
-}
+    Header,
+    Footer,
+    Body,
+  },
+};
 </script>
 
 <style>
@@ -20,11 +25,11 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-p{
-  color:red;
+p {
+  color: red;
 }
 </style>
