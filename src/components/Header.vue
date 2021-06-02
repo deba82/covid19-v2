@@ -49,6 +49,9 @@ p {
   border-bottom: 3px solid burlywood;
   font-family: "Padauk", sans-serif;
 }
+p > a:hover{
+  text-decoration: underline;
+}
 .i-smiley {
   color: blue;
 }
