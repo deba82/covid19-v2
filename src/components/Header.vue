@@ -7,7 +7,7 @@
       </i>
     </h1>
     <p>
-      <a href="#"
+      <a href="https://covid19api.com" target="_blank"
         >!!! <i class="fa i-smiley"> &#xf118; </i> Source from Covid-19 API
         <i class="fa i-smiley"> &#xf118; </i> !!!</a
       >
